@@ -94,7 +94,6 @@ export const Projects = () => {
             href={project.url}
             target="_blank"
             rel="noopener noreferrer"
-            variants={cardVariants}
             whileHover={{
               y: -10,
               rotateX: 4,
