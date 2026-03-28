@@ -4,7 +4,7 @@ import type { Metadata } from "next";
 import "./globals.css";
 import { motion } from "framer-motion";
 
-export const metadata: Metadata = {
+const metadata: Metadata = {
   title: "ポートフォリオ | coen エンジニアコミュニティ",
   description:
     "coen エンジニアコミュニティ ワークショップで作成したポートフォリオ",
