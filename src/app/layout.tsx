@@ -1,14 +1,9 @@
 "use client";
 
-import type { Metadata } from "next";
 import "./globals.css";
 import { motion } from "framer-motion";
 
-const metadata: Metadata = {
-  title: "ポートフォリオ | coen エンジニアコミュニティ",
-  description:
-    "coen エンジニアコミュニティ ワークショップで作成したポートフォリオ",
-};
+
 
 const RootLayout = ({ children }: { children: React.ReactNode }) => {
   return (
